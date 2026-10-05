@@ -1,0 +1,1 @@
+import {PageTitle} from "@/components/ui";import {ComplaintList} from "@/components/complaint-list";export default function Page(){return <><PageTitle title="Assigned tasks" subtitle="Open a task to update its service status."/><ComplaintList base="/staff/tasks"/></>}

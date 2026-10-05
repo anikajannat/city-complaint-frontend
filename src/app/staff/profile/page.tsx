@@ -1,0 +1,1 @@
+import {PageTitle} from "@/components/ui";export default function Page(){return <><PageTitle title="Staff profile" subtitle="Service staff account and availability."/><div className="card p-6">Availability: <b>Active</b></div></>}

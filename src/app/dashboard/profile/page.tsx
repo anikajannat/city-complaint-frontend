@@ -1,0 +1,2 @@
+"use client";import {PageTitle} from "@/components/ui";import {useAuth} from "@/store/auth";
+export default function Page(){const u=useAuth(s=>s.user);return <><PageTitle title="Profile & settings" subtitle="Your citizen account information."/><div className="card p-6 max-w-xl"><div className="grid gap-4"><div><div className="text-sm text-slate-500">Name</div><b>{u?.name}</b></div><div><div className="text-sm text-slate-500">Email</div><b>{u?.email}</b></div><div><div className="text-sm text-slate-500">Role</div><b>{u?.role}</b></div></div></div></>}

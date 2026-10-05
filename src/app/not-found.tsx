@@ -1,0 +1,1 @@
+import Link from "next/link";export default function N(){return <main className="min-h-screen flex items-center justify-center text-center"><div><div className="text-7xl font-black">404</div><h1 className="text-2xl font-black">Page not found</h1><Link className="btn btn-primary mt-5" href="/">Go home</Link></div></main>}

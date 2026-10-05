@@ -1,0 +1,3 @@
+import {PublicShell} from "@/components/public-shell";
+export const metadata={title:"Frequently asked questions"};
+export default function Page(){return <PublicShell><section className="shell py-20"><div className="max-w-3xl"><div className="text-brand font-bold">CITYCARE</div><h1 className="text-4xl font-black mt-2">Frequently asked questions</h1><p className="text-lg text-slate-600 leading-8 mt-6">How do I report an issue? Create a citizen account and use New Complaint. How do I track it? Open My Complaints. When is payment needed? Only when an administrator assigns a real service fee.</p></div></section></PublicShell>}

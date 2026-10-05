@@ -1,0 +1,1 @@
+import {AuthGuard} from "@/components/auth-guard";import {DashboardShell} from "@/components/dashboard-shell";export default function L({children}:{children:React.ReactNode}){return <AuthGuard roles={["ADMIN"]}><DashboardShell>{children}</DashboardShell></AuthGuard>}

@@ -1,0 +1,2 @@
+"use client";import {PageTitle} from "@/components/ui";import {useComplaints} from "@/lib/hooks";
+export default function Page(){const q=useComplaints("?limit=50");return <><PageTitle title="Reports" subtitle="Operational overview suitable for the evaluation walkthrough."/><div className="card p-6"><h2 className="font-black">Resolution summary</h2><p className="text-slate-600 mt-3">Loaded {q.data?.total||0} complaints from the real API. Use the Analytics page for visual status distribution and the Complaint Management page for action-level workflow.</p></div></>}
